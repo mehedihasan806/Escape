@@ -1,0 +1,80 @@
+@font-face{
+	font-family: Brandon_bld;
+	src: url(../fonts/brand_ssv/Brandon_bld.otf);
+	font-weight: bold;
+}
+@font-face{
+	font-family: Brandon_med;
+	src: url(../fonts/brand_ssv/Brandon_med.otf);
+	font-weight: medium;
+}
+@font-face{
+	font-family: Brandon_reg;
+	src: url(../fonts/brand_ssv/Brandon_reg.otf);
+	font-weight: lighter;
+}
+/*fonts end*/
+body{
+
+}
+/*header part start*/
+header{
+	background-image: url(../images/header_banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 25px;
+	padding-bottom: 120px;
+}
+.menu ul li a{
+	font-family: Brandon_med;
+	font-weight: medium;
+	font-size: 18px;
+	color: white !important;
+	padding-right: 30px !important;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #6c6b68 !important;
+
+}
+/*header part start*/
+.car_indicators{
+	bottom: -85px;
+}
+.car_indicators li{
+	width: 18px;
+	height:10px;
+	border-radius: 50%;
+
+}
+.car_inner{
+
+}
+.car_inner h1{
+	font-family: Brandon_reg;
+	font-weight: 300;
+	font-size: 28px;
+	color: #ffffff;
+	padding-top: 150px;
+    padding-bottom: 10px;
+}
+.car_inner p{
+	font-family: Brandon_bld;
+	font-weight: 700;
+	font-size: 66px;
+	color: #ffffff;
+	padding-bottom: 75px;
+}
+#button:hover{
+
+}
+
+
+
+
+
+
